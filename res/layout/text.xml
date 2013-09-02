@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etCommands"
+        android:hint="Type a command"
+        android:password="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/etCommands"
+        android:layout_marginTop="43dp"
+        android:layout_toRightOf="@+id/toggleButton1"
+        android:text="Click Here" />
+
+    <TextView
+        android:id="@+id/tViewI"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnres"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:gravity="center"
+        
+        android:text="TextView" />
+
+    <ToggleButton
+        android:id="@+id/tbpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnres"
+        android:layout_alignBottom="@+id/btnres"
+        android:layout_alignParentLeft="true"
+        android:checked="true"
+        android:text="ToggleButton" />
+    
+</RelativeLayout>

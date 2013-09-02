@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.streak.test1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/leg"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.streak.test1.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.streak.test1.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.streak.test1.MAINACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.streak.test1.Scren"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.streak.test1.SCREN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.streak.test1.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.streak.test1.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.streak.test1.Menu2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.streak.test1.MENU2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.streak.test1.Textplay"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.streak.test1.TEXTPLAY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.streak.test1.Email"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.streak.test1.EMAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
