@@ -23,7 +23,7 @@ public class Splash extends Activity {
 				} catch (InterruptedException e){
 					e.printStackTrace();
 				}finally{
-					Intent openStartingPoint = new Intent(Splash.this,Menu2.class);
+					Intent openStartingPoint = new Intent(Splash.this,Menu.class);
 					startActivity(openStartingPoint);
 				}
 				
